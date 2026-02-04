@@ -4,6 +4,7 @@ title: Redouane Chadouli's Personal Blog
 theme: PaperMod
 
 params:
+  env: production
   defaultTheme: auto
   homeInfoParams:
     Title: "Welcome!🤗"
@@ -40,10 +41,6 @@ menu:
     name: Blog
     url: /posts/
     weight: 20
-  - identifier: search
-    name: Search
-    url: /search/
-    weight: 30
   - identifier: archives
     name: Archives
     url: /archives/
